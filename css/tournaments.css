@@ -2,6 +2,11 @@
     font-family: 'Baloo 2', cursive;
 }
 
+a:link, a:visited {
+	color: #0000EE;
+	text-decoration: none;
+}
+
 body {
     background-color: #a29bfe;
 }
