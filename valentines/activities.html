@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		body {
+			text-align: center;
+            margin-top: 30px;
+            font-family: 'Courier';
+            background-color:#FFF5E4;
+            color: #75b7ea;
+		}
+		#activityquestion {
+			font-size: 50px;
+            margin-bottom: 30px;
+		}
+		.activity-item {
+            display: inline-block;
+            margin: 10px;
+            vertical-align: top;
+			color: #75b7ea;
+        }
+        .activity-item img {
+            width: 220px; 
+            height: auto;
+			padding: 10px;
+        }
+        .activity-item label {
+            display: block;
+        }
+		.button {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            margin: 10px;
+            font-family: 'courier';
+            margin-bottom: 20px;
+            background-color:#9beec2;
+            color: #bd79e3;
+            border-radius: 12px;
+            border: 2px solid #9beec2;
+        }
+	</style>
+</head>
+<body>
+	<div id="activityquestion"><b>Pick your favourite activities!!</b>
+	</div>
+	<div class = "activities-selection">
+		<div class="activity-item">
+			<img src="activities/valorant.jpg" alt="valorant">
+			<label><input type="checkbox" name="activities" value="valorant">Valorant swifties!!</label>
+		</div>
+		<div class="activity-item">
+			<img src="activities/lolARAM.jpg" alt="league aram">
+			<label><input type="checkbox" name="activities" value="league ARAM">League ARAM... O_O</label>
+		</div>
+		<div class="activity-item">
+			<img src="activities/discord.jpg" alt="discord">
+			<label><input type="checkbox" name="activities" value="discord">Discord DM call date 😊😊😊</label>
+		</div>
+		<div class="activity-item">
+			<img src="activities/badminton.jpg" alt="badminton">
+			<label><input type="checkbox" name="activities" value="badminton">B-b-badminton? 👉👈</label>
+		</div>
+		<div class="activity-item">
+			<img src="activities/anime.jpg" alt="anime">
+			<label><input type="checkbox" name="activities" value="anime">Anime watchinggg</label>
+		</div>
+		<div class="activity-item">
+			<img src="activities/overwatch.jpg" alt="overwatch">
+			<label><input type="checkbox" name="activities" value="overwatch">Overwatch???</label>
+		</div>
+	</div>
+	<button class = "button" onclick="location.href='lastpage.html'">Lock in the activities!!</button>
+</body>
+</html>
